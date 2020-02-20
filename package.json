@@ -1,0 +1,95 @@
+{
+  "name": "cdp-cms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve --mode local",
+    "build-dev": "vue-cli-service build --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "now-start": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "chartist": "0.11.0",
+    "core-js": "^3.3.2",
+    "froala-editor": "^3.1.0",
+    "fusioncharts": "^3.14.1",
+    "i18n": "^0.8.4",
+    "postcss-loader": "3",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-resize-module": "^3.0.0",
+    "raw-loader": "0.5.1",
+    "vue": "^2.6.10",
+    "vue-apexcharts": "^1.5.1",
+    "vue-axios": "^2.1.5",
+    "vue-froala-wysiwyg": "^3.1.0",
+    "vue-fusioncharts": "^3.0.4",
+    "vue-i18n": "^8.14.0",
+    "vue-momentjs": "^0.1.2",
+    "vue-router": "^3.0.3",
+    "vue-the-mask": "^0.11.1",
+    "vue2-editor": "^2.10.2",
+    "vuedraggable": "^2.23.2",
+    "vuetify": "^2.1.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-unit-jest": "^3.10.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "^0.19.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-vuetify": "*",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.1.0",
+    "vee-validate": "^2.2.15",
+    "vue-chartist": "^2.2.1",
+    "vue-cli-plugin-eslint-config-vuetify": "latest",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-vuetify": "^1.1.0",
+    "vue-cli-plugin-vuetify-essentials": "latest",
+    "vue-template-compiler": "^2.6.10",
+    "vue-world-map": "^0.1.1",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/standard"
+    ],
+    "rules": {
+      "no-console": "off",
+      "comma-dangle": "off",
+      "vue/html-closing-bracket-newline": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module",
+      "allowImportExportEverywhere": false
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
